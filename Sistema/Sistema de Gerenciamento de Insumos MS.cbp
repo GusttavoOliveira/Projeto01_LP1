@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Sistema de Gerenciamento de Insumos MS" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Sistema de Gerenciamento de Insumos MS" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Sistema de Gerenciamento de Insumos MS" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="cadastraInsumos.cpp" />
+		<Unit filename="cadastraInsumos.h" />
+		<Unit filename="consultaDistEstados.cpp" />
+		<Unit filename="consultaDistEstados.h" />
+		<Unit filename="consultaDistribuidos.cpp" />
+		<Unit filename="consultaDistribuidos.h" />
+		<Unit filename="consultaInsumosMS.cpp" />
+		<Unit filename="consultaInsumosMS.h" />
+		<Unit filename="consultarPorTipo.cpp" />
+		<Unit filename="consultarPorTipo.h" />
+		<Unit filename="entregaParaEstados.cpp" />
+		<Unit filename="entregaParaEstados.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="menu.cpp" />
+		<Unit filename="menu.h" />
+		<Unit filename="retornaDistribuidosPorTipo.cpp" />
+		<Unit filename="retornaDistribuidosPorTipo.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
