@@ -1,0 +1,108 @@
+# depslib dependency file v1.0
+1618694463 source:c:\users\luizg\desktop\engenharia\sistema de gerenciamento de insumos ms\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	"cadastraInsumos.h"
+	"consultaDistEstados.h"
+	"consultaDistribuidos.h"
+	"consultaInsumosMS.h"
+	"consultarPorTipo.h"
+	"retornaDistribuidosPorTipo.h"
+	"entregaParaEstados.h"
+	"menu.h"
+
+1618694957 source:c:\users\luizg\desktop\engenharia\sistema de gerenciamento de insumos ms\cadastrainsumos.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<vector>
+	<algorithm>
+	<cctype>
+	"cadastraInsumos.h"
+
+1618693654 c:\users\luizg\desktop\engenharia\sistema de gerenciamento de insumos ms\cadastrainsumos.h
+
+1618694957 source:c:\users\luizg\desktop\engenharia\sistema de gerenciamento de insumos ms\consultadistestados.cpp
+	"consultaDistEstados.h"
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<vector>
+	<stdlib.h>
+	<algorithm>
+
+1618689804 c:\users\luizg\desktop\engenharia\sistema de gerenciamento de insumos ms\consultadistestados.h
+
+1618694957 source:c:\users\luizg\desktop\engenharia\sistema de gerenciamento de insumos ms\consultadistribuidos.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<vector>
+	<stdlib.h>
+	"consultaDistribuidos.h"
+
+1618689996 c:\users\luizg\desktop\engenharia\sistema de gerenciamento de insumos ms\consultadistribuidos.h
+
+1618690357 source:c:\users\luizg\desktop\engenharia\sistema de gerenciamento de insumos ms\consultainsumosms.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	"consultaInsumosMS.h"
+
+1618690376 c:\users\luizg\desktop\engenharia\sistema de gerenciamento de insumos ms\consultainsumosms.h
+
+1618694957 source:c:\users\luizg\desktop\engenharia\sistema de gerenciamento de insumos ms\consultarportipo.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<stdio.h>
+	<ctype.h>
+	<algorithm>
+	"consultarPorTipo.h"
+
+1618690723 c:\users\luizg\desktop\engenharia\sistema de gerenciamento de insumos ms\consultarportipo.h
+
+1618691409 source:c:\users\luizg\desktop\engenharia\sistema de gerenciamento de insumos ms\entregaparaestados.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<vector>
+	<stdlib.h>
+	<algorithm>
+	"entregaParaEstados.h"
+
+1618691099 c:\users\luizg\desktop\engenharia\sistema de gerenciamento de insumos ms\entregaparaestados.h
+
+1618694957 source:c:\users\luizg\desktop\engenharia\sistema de gerenciamento de insumos ms\retornadistribuidosportipo.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<vector>
+	<algorithm>
+	<stdlib.h>
+	"retornaDistribuidosPorTipo.h"
+
+1618691637 c:\users\luizg\desktop\engenharia\sistema de gerenciamento de insumos ms\retornadistribuidosportipo.h
+
+1618694957 source:c:\users\luizg\desktop\engenharia\sistema de gerenciamento de insumos ms\menu.cpp
+	<iostream>
+	<string>
+	<vector>
+	"menu.h"
+	"cadastraInsumos.h"
+	"consultaDistEstados.h"
+	"consultaDistribuidos.h"
+	"consultaInsumosMS.h"
+	"consultarPorTipo.h"
+	"retornaDistribuidosPorTipo.h"
+	"entregaParaEstados.h"
+
+1618693490 c:\users\luizg\desktop\engenharia\sistema de gerenciamento de insumos ms\menu.h
+
