@@ -13,7 +13,7 @@ using namespace std;
 int consultaDistEstados(){
 
   string estados[27] = {"Acre","Alagoas","Amapá","Amazonas","Bahia","Ceará","Distrito Federal","Espírito Santo","Goiás","Maranhão","Mato Grosso","Mato Grosso do Sul","Minas Gerais","Pará","Paraíba","Paraná","Pernambuco","Piauí","Rio de Janeiro","Rio Grande do Norte","Rio Grande do Sul","Rondônia","Roraima","Santa Catarina","São Paulo","Sergipe","Tocantins"};
-  string estados2[27] = {"acre","alagoas","amapá","amazonas","bahia","ceará","distrito federal","espírito santo","goiás","maranhão","mato grosso","mato grosso do sul","minas gerais","pará","paraíba","paraná","pernambuco","piauí","rio de janeiro","rio grande do norte","rio grande do sul","rondônia","roraima","santa catarina","são paulo","sergipe","tocantins"};
+  string estados2[27] = {"acre","alagoas","amapa","amazonas","bahia","ceara","distrito federal","espirito santo","goias","maranhao","mato grosso","mato grosso do sul","minas gerais","para","paraiba","parana","pernambuco","piaui","rio de janeiro","rio grande do norte","rio grande do sul","rondonia","roraima","santa catarina","sao paulo","sergipe","tocantins"};
 
 
   start:
@@ -117,7 +117,7 @@ int consultaDistEstados(){
   }
 
   if(!verificaVazio){
-    cout << "Esse estado não recebeu insumos ainda!" << endl;
+    cout << "Esse estado não existe ou não recebeu insumos ainda!" << endl;
     verificaVazio = false;
   }
 

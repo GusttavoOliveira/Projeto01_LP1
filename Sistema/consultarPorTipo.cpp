@@ -47,7 +47,7 @@ int consultarPorTipo()
           string insumo, nome, valorUni, quantidade, dataVenc, nomeFabri, tipoVac, quantDoses, interDose, tamDosagem, administracao, formOfertados, tipoEPI, descricaoEPI;
 
           // procura linhas válidas
-          if(getline(iss, insumo, ',') && getline(iss, nome, ',') &&  getline(iss, valorUni, ',') && getline(iss, quantidade, ',') && getline(iss, dataVenc, ',') && getline(iss, nomeFabri, ',') && getline(iss, tipoVac,',') && getline(iss, quantDoses, ',') && getline(iss, interDose,',') && getline(iss, tamDosagem,',') && getline(iss, administracao,',') && getline(iss, formOfertados,',') && getline(iss, tipoEPI,',')&& getline(iss, descricaoEPI)){
+          if(getline(iss, insumo, ',') && getline(iss, nome, ',') &&  getline(iss, valorUni, ',') && getline(iss, quantidade, ',') && getline(iss, dataVenc, ',') && getline(iss, nomeFabri, ',') && getline(iss, tipoVac,',') && getline(iss, quantDoses, ',') && getline(iss, interDose,',') && getline(iss, tamDosagem,',') && getline(iss, administracao,',') && getline(iss, formOfertados,',') && getline(iss, tipoEPI,',')&& getline(iss, descricaoEPI,',')){
 
             /*
             char *endp = nullptr;
@@ -71,7 +71,7 @@ int consultarPorTipo()
             }
             if(i==1 && entrada=="medicamento"){
               //especifica linhas de medicamento
-              if(insumo == "Medicamento" && tipoVac == "NaN" && descricaoEPI == "NaN"){
+              if(insumo == "Medicamento"){
                 cout << "Insumo: " << insumo << endl;
                 cout << "Nome: " << nome << endl;
                 cout << "Preco por unidade: " << valorUni << endl;
@@ -87,7 +87,7 @@ int consultarPorTipo()
 
             if(i==2 && entrada == "epi"){
             //especifica linhas de EPI
-              if(insumo == "EPI" && tamDosagem == "NaN" && tipoVac == "NaN"){
+              if(insumo == "Epi"){
                 cout << "Insumo: " << insumo << endl;
                 cout << "Nome: " << nome << endl;
                 cout << "Preco por unidade: " << valorUni << endl;

@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <sstream>
+#include <locale>
 #include <vector>
 #include <algorithm>
 #include <cctype>
@@ -33,6 +34,7 @@ void escreverNoCsv(vector<string> cadastro){
 }
 
 int cadastraInsumos(){
+    setlocale(LC_ALL, "Portuguese");
 
     start:
     string outputs[14] = {"um insumo:", "o nome do insumo:", "o preço por unidade:","a quantidade do insumo:", "o vencimento do insumo:", "o fabricante do insumo:", "o tipo da vacina:", "a quantidade de doses:", "o intervalo das doses", "a dosagem do medicamento:", "a administração do medicamento:", "a disponibilização do medicamento:", "o tipo do EPI:", "a descrição do EPI:" };
@@ -47,22 +49,22 @@ int cadastraInsumos(){
         if(i==0){
             cout << "\nDigite " << outputs[i]<< endl;
             getline(cin, val);// lê o valor
-            transform(val.begin(), val.end(), val.begin(),[](unsigned char c){ return tolower(c); });//transforma a flag e minusculo
+            transform(val.begin(), val.end(), val.begin(),[](unsigned char c){ return tolower(c); });//transforma a val e minusculo
             val[0] = toupper(val[0]);//Capitaliza a primeira palavra
             flag = val;
         }
 
-        if((flag=="Vacina" || flag=="vacina") && i!=0 && i<9){
+        if((flag=="Vacina") && i!=0 && i<9){
             cout << "\nDigite " << outputs[i]<< endl;
             getline(cin, val);// lê o valor
         }
 
-        if((flag=="Medicamento" or flag=="medicamento") && i!=0 && ((i<6) || (i>8 && i<12))){
+        if((flag=="Medicamento") && i!=0 && ((i<6) || (i>8 && i<12))){
             cout << "\nDigite " << outputs[i]<< endl;
             getline(cin, val);// lê o valor
         }
 
-        if((flag=="EPI" or flag=="epi") && i!=0 && ((i<6) || (i>11))){
+        if(((flag=="Epi") && i!=0) && ((i<6) || (i>11 && i<14))){
             cout << "\nDigite " << outputs[i]<< endl;
             getline(cin, val);// lê o valor
         }
@@ -71,12 +73,12 @@ int cadastraInsumos(){
         transform(val.begin(), val.end(), val.begin(),[](unsigned char c){ return tolower(c); });// transforma valores em minusculo
         val[0] = toupper(val[0]); // Capitaliza a primeira palavra
 
-        if(flag != "Vacina" && flag != "vacina" && flag != "Medicamento" && flag != "medicamento" &&  flag != "EPI" && flag != "epi"){
+        if(flag != "Vacina" && flag != "vacina" && flag != "Medicamento" && flag != "medicamento" &&  flag != "Epi" && flag != "epi"){
             system("cls");
             goto start;
         }
 
-        else if(flag=="Vacina" or flag=="vacina"){ //Entradas apenas caso o insumo escolhido for Vacina
+        else if(flag=="Vacina"){ //Entradas apenas caso o insumo escolhido for Vacina
             if(i<9){
                 cadastro.push_back(val);
             }
@@ -88,7 +90,7 @@ int cadastraInsumos(){
             }
         }
 
-        else if(flag=="Medicamento" or flag=="medicamento"){ //Entradas apenas caso o insumo escolhido for Medicamento
+        else if(flag=="Medicamento"){ //Entradas apenas caso o insumo escolhido for Medicamento
 
             if((i<6) || (i>8 && i<12)){
                 cadastro.push_back(val);
@@ -101,9 +103,9 @@ int cadastraInsumos(){
             }
         }
 
-        else if(flag=="EPI" or flag=="epi"){ //Entradas apenas caso o insumo escolhido for EPI
+        else if(flag=="Epi"){ //Entradas apenas caso o insumo escolhido for EPI
 
-            if((i<6) || (i>11)){
+            if((i<6) || (i>11 && i<14)){
                 cadastro.push_back(val);
             }
             if(i>5 && i<12){

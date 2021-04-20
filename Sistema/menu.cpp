@@ -20,7 +20,7 @@ int menu(){
     cout << "1) Cadastre insumos" << endl;
     cout << "2) Consulte relatório do estoque do MS" << endl;
     cout << "3) Consulte insumos disponíveis no estoque de acordo com o tipo" << endl;
-    cout << "4) Consulte insumos distribuidos de acordo com o estado" << endl;
+    cout << "4) Consulte insumos distribuidos" << endl;
     cout << "5) Consulte distruibuidos de acordo com o tipo"<< endl;
     cout << "6) Consulte distribuidos de acordo com estado" << endl;
     cout << "7) Entrega insumos para os Estados" << endl;
@@ -32,7 +32,7 @@ int menu(){
     switch (opcao){
     case 0:
         cout << "Até a próxima" << endl;
-        return 0;
+        return 1;
     case 1:
         cadastraInsumos();
         break;
@@ -54,5 +54,8 @@ int menu(){
     case 7:
         entregaParaEstados();
         break;
+    default:
+        system("cls");
+        goto print;
     }
 }

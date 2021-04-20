@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <stdio.h>
+#include <locale.h>
 #include "cadastraInsumos.h"
 #include "consultaDistEstados.h"
 #include "consultaDistribuidos.h"
@@ -14,14 +16,14 @@
 using namespace std;
 
 int main(){
-
-    int acaba = 1;
+    setlocale(LC_ALL,"");
+    int acaba = -1;
 
 
     while(1){
 
         acaba = menu();
-        if(acaba == 0){
+        if(acaba == 1){
             return 0;
         }
     }

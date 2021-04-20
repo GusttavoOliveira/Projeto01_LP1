@@ -40,7 +40,7 @@ int entregaParaEstados() {
             transform(estado.begin(), estado.end(), estado.begin(),[](unsigned char c){ return tolower(c);});
             e = distance(estados2, find(estados2, estados2 + 27, estado)); //retorna a distância entre o endereço do primeiro elemento e o endereço do elemento escolhido
             if(e>=0){
-                system("clear");
+                system("cls");
             }
         }
 
@@ -54,10 +54,10 @@ int entregaParaEstados() {
         cin.ignore();
             if(resposta == 'S' or resposta == 's'){
                 escreverNoCsv(matriz);
-                system("clear");
+                system("cls");
             }
             else if(resposta == 'N' or resposta == 'n'){
-                system("clear");
+                system("cls");
             }
     }while(resposta != 'N' && resposta != 'S' && resposta != 's' && resposta != 'n');
 
@@ -129,10 +129,10 @@ void distribui(vector<vector<string>> &matriz, string nomeInsumo,int estadoIndex
                 cin >> resposta;
                 cin.ignore();
                     if(resposta == 'S' or resposta == 's'){
-                        system("clear");
+                        system("cls");
                     }
                     else if(resposta == 'N' or resposta == 'n'){
-                        system("clear");
+                        system("cls");
                         validador = false;
                     }
             }while(resposta != 'N' && resposta != 'S' && resposta != 's' && resposta != 'n');

@@ -1,3 +1,13 @@
-
-Vacina,Coronavac,15,55,80000,12/04/2025,Pfizer,Vacina de rna,2,15,NaN,NaN,NaN,NaN,NaN,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Vacina,Coronavac,90,88,80000,15/05/2022,Pfizer,Vacina de cerdas,2,15,NaN,NaN,NaN,NaN,NaN,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Insumo,Nome,PrecoUnidade,Quantidade,Vencimento,Fabricante,TipodeVacina,QuantidadeDeDoses,InterDoses,Dosagem,Administração,Disponibilização,TipoEPI,DescriçãoEPI,AC,AL,AP,AM,BA,CE,DF,ES,GO,MA,MT,MS,MG,PA,PB,PR,PE,PI,RJ,RN,RS,RO,RR,SC,SP,SE,TO
+Vacina,CoronaVac,55.88,690,25/04/2040,Butantan,Vacina de RNA,3,45,NaN,NaN,NaN,NaN,NaN,110,0,656,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Vacina,RomeVac,60.00,1500,25/07/2040,Pfizer,Vacina de cerdas,2,90,NaN,NaN,NaN,NaN,NaN,0,0,852,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Vacina,Atchim,40.66,200,11/05/2025,Astrazeneca,Vacina de virus inativo,1,00,NaN,NaN,NaN,NaN,NaN,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Medicamento,Soneca,12.99,100,15/06/2022,Bayer,NaN,NaN,NaN,8 mg,Via oral,Pilula,NaN,NaN,0,0,464,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,900
+Medicamento,Dipirona,10.99,800,15/06/2023,Noval,NaN,NaN,NaN,5 mg,Via intravenosa,Líquida,NaN,NaN,0,0,963,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Medicamento,Dramin,9.99,500,15/04/2025,Jhonson&Jhonson,NaN,NaN,NaN,2 mg,Via oral,Capsula,NaN,NaN,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Vacina,Macumba,80.99,90000,12/12/2025,China,Vacina de cerdas,2,60,NaN,NaN,NaN,NaN,NaN,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Vacina,CoroninHA,4.50,700,12/05/2013,bozo,gotinha,10,2 dias,NaN,NaN,NaN,NaN,NaN,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+vacina,vacinona,90,100,19/10,pega o pato,tafico,12,1,NaN,NaN,NaN,NaN,NaN,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Vacina,Cleitinho,4.50,1,14/05/1968,Eu,De beber,5,35,NaN,NaN,NaN,NaN,NaN,0,0,97979,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Medicamento,Rivotril,80.55,80000,18/04/2021,Bayer,NaN,NaN,NaN,92mg,Via oral,Pilulas,NaN,NaN,10000,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Epi,Chinelo,59.00,900,25/12/2019,Havaianas,NaN,NaN,NaN,NaN,NaN,NaN,Esporte,Para esportes,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

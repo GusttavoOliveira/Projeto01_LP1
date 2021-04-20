@@ -1,8 +1,10 @@
 # depslib dependency file v1.0
-1618694463 source:c:\users\luizg\desktop\engenharia\sistema de gerenciamento de insumos ms\main.cpp
+1618875099 source:c:\users\luizg\desktop\engenharia\sistema de gerenciamento de insumos ms\main.cpp
 	<iostream>
 	<string>
 	<vector>
+	<stdio.h>
+	<locale.h>
 	"cadastraInsumos.h"
 	"consultaDistEstados.h"
 	"consultaDistribuidos.h"
@@ -12,10 +14,11 @@
 	"entregaParaEstados.h"
 	"menu.h"
 
-1618694957 source:c:\users\luizg\desktop\engenharia\sistema de gerenciamento de insumos ms\cadastrainsumos.cpp
+1618874837 source:c:\users\luizg\desktop\engenharia\sistema de gerenciamento de insumos ms\cadastrainsumos.cpp
 	<iostream>
 	<fstream>
 	<sstream>
+	<locale>
 	<vector>
 	<algorithm>
 	<cctype>
@@ -23,7 +26,7 @@
 
 1618693654 c:\users\luizg\desktop\engenharia\sistema de gerenciamento de insumos ms\cadastrainsumos.h
 
-1618694957 source:c:\users\luizg\desktop\engenharia\sistema de gerenciamento de insumos ms\consultadistestados.cpp
+1618875498 source:c:\users\luizg\desktop\engenharia\sistema de gerenciamento de insumos ms\consultadistestados.cpp
 	"consultaDistEstados.h"
 	<iostream>
 	<fstream>
@@ -55,7 +58,7 @@
 
 1618690376 c:\users\luizg\desktop\engenharia\sistema de gerenciamento de insumos ms\consultainsumosms.h
 
-1618694957 source:c:\users\luizg\desktop\engenharia\sistema de gerenciamento de insumos ms\consultarportipo.cpp
+1618876819 source:c:\users\luizg\desktop\engenharia\sistema de gerenciamento de insumos ms\consultarportipo.cpp
 	<iostream>
 	<fstream>
 	<sstream>
@@ -67,7 +70,7 @@
 
 1618690723 c:\users\luizg\desktop\engenharia\sistema de gerenciamento de insumos ms\consultarportipo.h
 
-1618691409 source:c:\users\luizg\desktop\engenharia\sistema de gerenciamento de insumos ms\entregaparaestados.cpp
+1618699761 source:c:\users\luizg\desktop\engenharia\sistema de gerenciamento de insumos ms\entregaparaestados.cpp
 	<iostream>
 	<fstream>
 	<sstream>
@@ -91,7 +94,7 @@
 
 1618691637 c:\users\luizg\desktop\engenharia\sistema de gerenciamento de insumos ms\retornadistribuidosportipo.h
 
-1618694957 source:c:\users\luizg\desktop\engenharia\sistema de gerenciamento de insumos ms\menu.cpp
+1618871925 source:c:\users\luizg\desktop\engenharia\sistema de gerenciamento de insumos ms\menu.cpp
 	<iostream>
 	<string>
 	<vector>
