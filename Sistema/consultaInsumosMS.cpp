@@ -2,6 +2,7 @@
 #include <fstream>
 #include <sstream>
 #include <string>
+#include <algorithm>
 #include "consultaInsumosMS.h"
 
 using namespace std;
@@ -33,7 +34,7 @@ int consultaInsumosMS()
           long n = strtol(id.c_str(), &endp, 10);
           */
 
-          if(i==0){
+          if(i==0 && atoi(quantidade.c_str())!=0){
             //especifica linhas de vacina
             if(insumo == "Vacina" && tamDosagem == "NaN" && tipoEPI == "NaN"){
               cout << "Insumo: " << insumo << endl;
@@ -48,7 +49,7 @@ int consultaInsumosMS()
               cout << "\n----------------------------------\n";
             }
           }
-          if(i==1){
+          if(i==1 && atoi(quantidade.c_str())!=0){
             //especifica linhas de medicamento
             if(insumo == "Medicamento" && tipoVac == "NaN" && descricaoEPI == "NaN"){
               cout << "Insumo: " << insumo << endl;
@@ -64,7 +65,7 @@ int consultaInsumosMS()
             }
           }
 
-          if(i==2){
+          if(i==2 && atoi(quantidade.c_str())!=0){
           //especifica linhas de EPI
             if(insumo == "Epi" && tamDosagem == "NaN" && tipoVac == "NaN"){
               cout << "Insumo: " << insumo << endl;
